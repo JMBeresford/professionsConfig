@@ -1,0 +1,195 @@
+{
+  "type": "professions:default",
+  "color": "#A6542E",
+  "descriptionColor": "#FFFFFF",
+  "description": [
+    "Earn money and experience",
+    "by hunting animals, killing monsters, and exploring"
+  ],
+  "displayName": "Hunting",
+  "maxLevel": 100,
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "actions": [
+    {
+      "action": "professions:explore_biome",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 3,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "biomes": [
+        "#c:in_overworld"
+      ]
+    },
+    {
+      "action": "professions:explore_biome",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 4,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 8.0
+        }
+      ],
+      "biomes": [
+        "#c:in_nether"
+      ]
+    },
+    {
+      "action": "professions:explore_biome",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 5,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 9.2
+        }
+      ],
+      "biomes": [
+        "#c:in_the_end"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 8,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 8.0
+        }
+      ],
+      "entities": [
+        "minecraft:pig",
+        "minecraft:chicken",
+        "minecraft:sheep",
+        "minecraft:cow",
+        "minecraft:mooshroom",
+        "minecraft:rabbit"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 12,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:shulker"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 15,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 15.0
+        }
+      ],
+      "entities": [
+        "minecraft:blaze",
+        "minecraft:wither_skeleton",
+        "minecraft:piglin_brute",
+        "minecraft:hoglin",
+        "minecraft:phantom"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 100,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 100.0
+        }
+      ],
+      "entities": [
+        "minecraft:wither"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 600,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 600.0
+        }
+      ],
+      "entities": [
+        "minecraft:ender_dragon"
+      ]
+    },
+    {
+      "action": "professions:tame",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 15,
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 15.0
+        }
+      ],
+      "entities": [
+        "minecraft:wolf"
+      ]
+    }
+  ],
+  "unlocks": [],
+  "modifiers": {
+    "milestones": [],
+    "perks": []
+  }
+}
